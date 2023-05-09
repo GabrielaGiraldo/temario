@@ -1,0 +1,46 @@
+body{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 97vh;
+    align-items: center;
+}
+
+.main{
+    height: 250px;
+    width: 1000px;
+}
+
+.temario{
+    width: 729px;
+    height: auto;
+}
+
+.title{
+    border-bottom: 2px solid #000000;
+    font-size: 40px;
+}
+
+.tema{
+    border-bottom: 1px solid #b1b1b1;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tema:hover{
+    border: 1px solid #797878;
+}
+
+.clase{
+    display: flex;
+    align-items: center;
+    gap: 0px 10px;
+}
+
+.fecha{
+    font-size: medium;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;    
+}
